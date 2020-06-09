@@ -1,3 +1,10 @@
+'''
+    Using the concept of operator overloading in Python, change
+    the behavior of the multiplication operator in a way that
+    multiplication operator behaves like an addition operator.
+'''
+
+
 class Multiplication:
 
     def __init__(self, x):
