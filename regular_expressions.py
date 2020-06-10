@@ -36,9 +36,18 @@ print(variable)
 
 
 """
-    re.match
+    re.match using dot metacharacter
 """
 
-lmao = r"lo.....h"
-if re.match(lmao, "logitech"):
-    print("TRUE")
+random_word = r"lo.....h"
+if re.match(random_word, "logitech"):
+    print("Match found")
+
+
+"""
+    carrot and dollar metacharacter
+"""
+
+pattern = r"^log....h$"
+if re.match(pattern, "logitech"):
+    print("Match found using metacharacter")
