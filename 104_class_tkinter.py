@@ -20,6 +20,6 @@ class MyButtons:
 
 root = Tk()        
 #This line will create an object of class MyButtons
-object1 = MyButtons(root)        
-        
+object1 = MyButtons(root)
+
 root.mainloop()
