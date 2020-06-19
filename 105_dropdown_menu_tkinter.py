@@ -9,6 +9,9 @@ def function2():
 def function3():
     print("You have clicked toolbar button")
 
+def function4():
+    print("You have clicked the status bar")    
+
 root = Tk()
 
 #This line will create an object of an pre-existing class Menu
@@ -46,5 +49,10 @@ button3 = Button(toolbar1, text="Exit", command=toolbar1.quit)
 button3.pack(side=LEFT, padx=4, pady=4)
 
 toolbar1.pack(side=TOP, fill=X)
+
+#This line will add status bar
+statusbar = Label(root, text="This is a status bar", relief=SUNKEN, anchor=W)
+statusbar.pack(side=BOTTOM, fill=X)
+
 
 root.mainloop()
